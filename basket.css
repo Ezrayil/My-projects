@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* خطوط عمودی را حذف می‌کند */
+    margin-top: 20px;
+}
+th, td {
+    text-align: left;
+    line-height: 5.5; /* فاصله عمودی بین خطوط */
+}
+
+th {
+    background-color: #f4f4f4;
+}
+.subtotal {
+    font-weight: bold;
+}
+/* حذف خطوط عمودی */
+td {
+    border-bottom: 2px solid #ccc; /* فقط خط افقی */
+}
+/* خط آخر جدول */
+tfoot td {
+    border-bottom: none; /* حذف خط آخر */
+}
